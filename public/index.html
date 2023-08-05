@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body class="text-center">
+    <div class="mt-5">
+        <input type="text" placeholder="Enter The Model" id="input" class="p-2 w-50 mx-1 rounded">
+        <select name="" id="" class="mx-1  py-2  rounded" style="width: 185px;">
+            <option value=""></option>
+            <option value="">Samsung</option>
+            <option value="">Iphone</option>
+            <option value="">Vivo</option>
+            <option value="">Motorola</option>
+        </select>
+        <button class="btn btn-danger mx-1" onclick="searchTable()">Search</button>
+    </div>
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Ram</th>
+                <th>Rom</th>
+                <th>Camera</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        
+        </tbody>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
+</html>
